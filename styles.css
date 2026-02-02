@@ -1,0 +1,57 @@
+body {
+	background-color: #13120a;
+	color: #edecec;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+.headerWrapper {
+	background-color: #13120a;
+	display: flex;
+	width: 98%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logoWrapper img {
+	width: 120px;
+}
+
+.navWrapper nav ul {
+	display: flex;
+	list-style: none;
+	gap: 50px;
+}
+
+.navWrapper nav a {
+	color: #edecec;
+	text-decoration: none;
+	font-size: 1.2em;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+}
+
+.ctaWrapper {
+	display: flex;
+	gap: 10px;
+}
+
+.ctaWrapper button {
+	border: 1px solid white;
+	padding: 3px 14px;
+	border-radius: 20px;
+	background-color: #13120a;
+	color: #edecec;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 0.8px;
+	font-weight: 400;
+}
+
+.ctaWrapper #downloadBtn {
+	background-color: #edecec;
+	color: #13120a;
+}
