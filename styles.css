@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+p {
+	all: unset;
+}
+
 body {
 	background-color: #13120a;
 	color: #edecec;
@@ -217,8 +221,246 @@ button span {
 	height: 100%;
 	width: 95%;
 	border-radius: 10px;
+}
 
-	/* object-fit: fill;
-	height: 120%;
-	object-position: bottom; */
+.testimonials {
+	display: flex;
+	flex-direction: column;
+}
+
+.testimonialHeading {
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.8em;
+	font-weight: 400;
+}
+
+.testimonialCards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.eachTestiCard {
+	background-color: #1b1912;
+	padding: 20px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 70px;
+}
+
+.testiText p {
+	all: unset;
+	font-size: 1.3em;
+}
+
+.authorNameDetail {
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	gap: 10px;
+}
+
+.authorPhoto {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.authorPhoto img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.authorDetail {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	border-radius: 5px;
+	justify-content: space-around;
+}
+
+.authorName {
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+.authorDesig {
+	color: #999894;
+}
+
+.useCaseCards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.eachUseCaseCard {
+	background-color: #1b1912;
+	border-radius: 5px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.useCaseText {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.3em;
+}
+
+.useCaseTextPara {
+	color: #999894;
+}
+.useCaseText a {
+	color: #f54e00;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.useCaseImage {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.useCaseImage img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.changelog {
+	display: flex;
+	flex-direction: column;
+}
+
+.changelogCards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.eachChangelogCard {
+	display: flex;
+	flex-direction: column;
+	background-color: #1b1912;
+	border-radius: 5px;
+	padding: 20px;
+	gap: 20px;
+}
+
+.changelogDate {
+	color: #999894;
+	font-size: 1.5em;
+}
+
+.changelogDetails {
+	font-size: 1.5em;
+}
+
+.team {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	background-color: #1b1912;
+	gap: 10px;
+}
+.teamText {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+.teamText p {
+	font-size: 2em;
+	font-weight: 500;
+}
+.teamText a {
+	color: #f54e00;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+.teamImage {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.teamImage img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.finalCTA {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.finalCTAText {
+	font-size: 6em;
+}
+
+.finalCTA button {
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #1b1912;
+	min-height: 400px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.footerWrapper {
+	width: 96%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footerLinks {
+	display: flex;
+	justify-content: space-between;
+}
+
+.linkHeading {
+	color: #999894;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+}
+
+.actualLinks {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.actualLinks a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.copywriteInfo {
+	color: #999894;
+	font-size: 1.3em;
 }
